@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-time-hours-in-week",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Number of hours in a week.",
   "license": "Apache-2.0",
   "author": {
