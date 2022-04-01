@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/constants-time-hours-in-week",
+  "version": "0.0.0",
+  "description": "Number of hours in a week.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-time-hours-in-week.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtime",
+    "constant",
+    "const",
+    "hours",
+    "hrs",
+    "hr",
+    "week",
+    "wk",
+    "time",
+    "duration"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
