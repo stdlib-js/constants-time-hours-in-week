@@ -24,32 +24,30 @@ limitations under the License.
 
 > Number of hours in a week.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-time-hours-in-week
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-HOURS_IN_WEEK = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.HOURS_IN_WEEK;
-})();
-</script>
+var HOURS_IN_WEEK = require( '@stdlib/constants-time-hours-in-week' );
 ```
 
 #### HOURS_IN_WEEK
@@ -81,15 +79,10 @@ var bool = ( HOURS_IN_WEEK === 168 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var roundn = require( '@stdlib/math-base-special-roundn' );
+var HOURS_IN_WEEK = require( '@stdlib/constants-time-hours-in-week' );
 
 var hrs;
 var w;
@@ -104,11 +97,6 @@ for ( i = 0; i < 10; i++ ) {
     hrs = wks2hours( w );
     console.log( '%d wks => %d hours', w, hrs );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -194,12 +182,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-time-hours-in-week/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-time-hours-in-week/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-time-hours-in-week/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-time-hours-in-week/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-time-hours-in-week/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day/tree/umd
+[@stdlib/constants/time/hours-in-day]: https://github.com/stdlib-js/constants-time-hours-in-day
 
 <!-- </related-links> -->
 
