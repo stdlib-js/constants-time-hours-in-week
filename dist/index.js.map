@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../tmp/index.js"],
+  "sourcesContent": ["/** @license Apache-2.0 */\n'use strict';\nvar HOURS_IN_WEEK = 168|0;\nmodule.exports = HOURS_IN_WEEK;\n"],
+  "mappings": "aAEA,IAAIA,EAAgB,IACpB,OAAO,QAAUA",
+  "names": ["HOURS_IN_WEEK"]
+}
