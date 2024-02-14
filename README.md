@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time-hours-in-week/tags). For example,
+
+```javascript
 import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@v0.3.0-deno/mod.js';
 ```
 
@@ -77,7 +82,7 @@ var bool = ( HOURS_IN_WEEK === 168 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@deno/mod.js';
-import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@v0.3.0-deno/mod.js';
+import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@deno/mod.js';
 
 var hrs;
 var w;
