@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@deno/mod.js';
+import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@v0.3.1-deno/mod.js';
 ```
 
 #### HOURS_IN_WEEK
@@ -77,7 +77,7 @@ var bool = ( HOURS_IN_WEEK === 168 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@deno/mod.js';
-import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@deno/mod.js';
+import HOURS_IN_WEEK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-hours-in-week@v0.3.1-deno/mod.js';
 
 var hrs;
 var w;
